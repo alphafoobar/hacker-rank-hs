@@ -1,0 +1,65 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: bef4ab955747848e9c2e68570d70747c686bb827d8b994a5e8c31a9865c0f755
+
+name:           hacker-rank-hs
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/hacker-rank-hs#readme>
+homepage:       https://github.com/githubuser/hacker-rank-hs#readme
+bug-reports:    https://github.com/githubuser/hacker-rank-hs/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/hacker-rank-hs
+
+library
+  exposed-modules:
+      AreaUnderCurve
+      Lib
+  other-modules:
+      Paths_hacker_rank_hs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable hacker-rank-hs-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_hacker_rank_hs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , hacker-rank-hs
+  default-language: Haskell2010
+
+test-suite hacker-rank-hs-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      AreaUnderCurveSpec
+      Paths_hacker_rank_hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , hacker-rank-hs
+    , hspec
+    , QuickCheck
+  default-language: Haskell2010
