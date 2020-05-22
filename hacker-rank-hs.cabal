@@ -8,21 +8,20 @@ cabal-version: 1.12
 
 name:           hacker-rank-hs
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/hacker-rank-hs#readme>
-homepage:       https://github.com/githubuser/hacker-rank-hs#readme
-bug-reports:    https://github.com/githubuser/hacker-rank-hs/issues
-author:         Author name here
+description:    Please see the README on GitHub at <https://github.com/alphafoobar/hacker-rank-hs#readme>
+homepage:       https://github.com/alphafoobar/hacker-rank-hs#readme
+bug-reports:    https://github.com/alphafoobar/hacker-rank-hs/issues
+author:         James
 maintainer:     example@example.com
-copyright:      2020 Author name here
+copyright:      2020 James
 license:        BSD3
 build-type:     Simple
 extra-source-files:
     README.md
-    ChangeLog.md
-
+    
 source-repository head
   type: git
-  location: https://github.com/githubuser/hacker-rank-hs
+  location: https://github.com/alphafoobar/hacker-rank-hs
 
 library
   exposed-modules:
