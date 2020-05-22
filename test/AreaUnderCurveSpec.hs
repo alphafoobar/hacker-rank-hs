@@ -14,4 +14,4 @@ spec :: Spec
 spec = do
   describe "calculate a simple area" $ do
     it "should solve for area" $ do
-      (solve 1 4 [1, 2, 3, 4, 5] [6, 7, 8, 9, 10]) `shouldBe` [2435300.3, 26172951168940.8]
+      (solve 1 4 [1, 2, 3, 4, 5] [6, 7, 8, 9, 10]) `shouldBe` [2435300.3, 26172951168899.3]
